@@ -1,0 +1,18 @@
+.line {
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-bottom: 1px solid grey;
+        gap: 20px;
+    }
+
+    &__icon {
+        transition: 100ms ease;
+        
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
